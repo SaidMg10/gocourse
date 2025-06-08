@@ -2,11 +2,11 @@ package basics
 
 import "fmt"
 
-func man() {
+func mani() {
 	// Simple iteration over a range
-	//for i := 1; i <= 5; i++ {
-	//	fmt.Println(i)
-	//}
+	for i := 1; i <= 5; i++ {
+		fmt.Println(i)
+	}
 
 	// Iterate over collection
 	//numbers := []int{1, 2, 3, 4, 5, 6}
@@ -39,10 +39,10 @@ func man() {
 	//	fmt.Println() // Move to the next line
 	//}
 
-	for i := range 10 {
-		i++
-		fmt.Println(i)
-		// fmt.Println(10 - i)
-	}
-	fmt.Println("We have a lift off!")
+	//for i := range 10 {
+	//	i++
+	//	fmt.Println(i)
+	// fmt.Println(10 - i)
+	//}
+	//fmt.Println("We have a lift off!")
 }
