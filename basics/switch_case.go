@@ -2,7 +2,7 @@ package basics
 
 import "fmt"
 
-func main() {
+func maininno() {
 	// Switch statement in go is (switch case default) (fallthrough)
 	// switch expression {
 	// case value1:
